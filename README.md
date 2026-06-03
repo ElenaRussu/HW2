@@ -21,8 +21,8 @@ pip install -r requirements.txt
 
 Запуск тестов:
 ```bash
-cd main/test
-python -m pytest test_1.py test_2.py test_3.py -v
+cd main
+PYTHONPATH=. pytest test/ -v
 ```
 # Автор
 
